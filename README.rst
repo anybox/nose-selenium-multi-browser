@@ -2,7 +2,7 @@
 Nose selenium multi browser
 ===========================
 
-.. image:: https://api.travis-ci.org/anybox/nose-selenium-multi-browser.svg?branch=master
+.. image:: https://api.travis-ci.org/anybox/nose-selenium-multi-browser.svg?branch=develop
    :target: https://travis-ci.org/anybox/nose-selenium-multi-browser
    :alt: Travis
 
