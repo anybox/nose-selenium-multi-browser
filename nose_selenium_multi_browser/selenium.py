@@ -6,11 +6,9 @@ of driver.
 If you define more than one capabilities, each classes will be duplicate
 and run over different capabilities.
 
-Those classes will be launched at the same time in different process
+Those classes will be launched at the same time in different process::
 
-.. code-block::
-
-    from anybox.nose_selenium.selenium import SeleniumTestCase
+    from nose_selenium_multi_browser.selenium import SeleniumTestCase
 
 
     class MyTestCase(SeleniumTestCase):

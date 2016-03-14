@@ -1,12 +1,12 @@
-====================
-Anybox-nose-selenium
-====================
+===========================
+Nose selenium multi browser
+===========================
 
-.. image:: https://api.travis-ci.org/petrus-v/anybox-nose-selenium.svg?branch=master
-   :target: https://travis-ci.org/petrus-v/anybox-nose-selenium
+.. image:: https://api.travis-ci.org/anybox/nose-selenium-multi-browser.svg?branch=master
+   :target: https://travis-ci.org/anybox/nose-selenium-multi-browser
    :alt: Travis
 
-anybox-nose-selenium is a plugin for nose that provides support to launch
+nose-selenium-multi-browser is a plugin for nose that provides support to launch
 selenium tests, the same test case is launched over all browsers you define in
 parallel.
 
@@ -22,7 +22,7 @@ and run over different capabilities.
 
 Those classes will be launched at the same time in different process::
 
-    from anybox.nose_selenium.selenium import SeleniumTestCase
+    from nose_selenium_multi_browser.selenium import SeleniumTestCase
 
 
     class MyTestCase(SeleniumTestCase):
